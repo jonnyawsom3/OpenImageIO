@@ -1345,9 +1345,10 @@ control aspects of the writing itself:
        For lossy, higher effort should more accurately reach the target quality.
    * - ``jpegxl:speed``
      - int
-     - Sets the decoding speed tier for the provided options. Minimum is 0
+     - Sets the decoding speed tier. Minimum is 0
        (slowest to decode, best quality/density), and maximum is 4 (fastest to
-       decode, at the cost of some quality/density). Default is 0.
+       decode, at the cost of some quality/density). Default is 0. Encoding
+       speeds may be affected but have no relationship to the decoding speed tier.
    * - ``jpegxl:photon_noise_iso``
      - float
      - (ISO_FILM_SPEED) Adds noise to the image emulating photographic film or
